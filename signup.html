@@ -5,36 +5,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Signup</title>
+    <title>join github</title>
+    <link rel="stylesheet" href="signupstyle.css">
 </head>
 
 <body>
-    <h4>join github</h4>
-    <h1>First,let's create your user account </h1>
-    <form>
+    <div class="maincontainer">
+
+
+        <h4>Join Github</h4>
+        <h1>First,let's create your user account </h1>
 
 
 
-        <label for="username">Username*</label>
-        <input type="text" placeholder="Enter your username">
+        <div class="githubjoin container">
+            <form>
+                <label for="username">Username*</label>
+                <input type="text">
+                <label for="email">Email address*</label>
+                <input type="email">
+                <label for="password">Password*</label>
+                <input type="password">
+                <p>Make sure it's atleast 15 characters OR atleast 8 characters including a number and a lowercase
+                    letter<br>
+                    <a href="#">Learn more</a>
+                </p>
+                <h4>Email preferences</h4>
+                <input type="checkbox">
+                <label for="checkbox"id="check">Send me occasional product updates,announcements,and offers</label>
+                </label>
+                <br>
+                <!--<button type="submit">Create account</button>-->
+                <button id="my-button">Create Account</button>
+                <p>By creating an account,you agree to <a href="#">the terms of service</a>.For more information about
+                    Github's privacy practices<br>see the <a href="#">Github privacy statement</a>We'll occasionally
+                    send you
+                    account-related emails.</p>
 
-        <label for="email">email*</label>
-        <input type="email" placeholder="Enter your email">
+            </form>
+        </div>
 
-        <label for="password">password*</label>
-        <input type="password" placeholder="Enter your password">
-
-        <p>Make sure it's atleast 15 characters OR atleast 8 characters including a number and a lowercase letter.
-            <a href="https://www.w3schools.com/html/html_links.asp">learn more</a>
-        </p>
-        <p>Email preferences</p>
-        <input type="checkbox">
-        <label for="checkbox">Send me occasional product updates,announcements and offers</label>
-        <button type="submit">Create account</button>
-        <p>By creating an account,you agree to the terms of service.For more information about Github's</p>
-           <p>privacy practices,see the Github privacy statement.We'll occasionally send you account-related emails.</p> 
-    </form>
-
+    </div>
 
 </body>
 
